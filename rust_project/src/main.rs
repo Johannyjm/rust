@@ -6,7 +6,10 @@
 // mod problems{
 //     pub mod problem1;
 // }
-mod step6_result;
+// mod step6_result;
+mod problems {
+    pub mod problem2;
+}
 
 fn main() {
     // step1_variables_and_datatypes::run();
@@ -15,5 +18,6 @@ fn main() {
     // step4_functions::run();
     // step5_structs_methods::run();
     // problems::problem1::run();
-    step6_result::run();
+    // step6_result::run();
+    problems::problem2::run();
 }
