@@ -3,9 +3,10 @@
 // mod step3_loop_execution;
 // mod step4_functions;
 // mod step5_structs_methods;
-mod problems{
-    pub mod problem1;
-}
+// mod problems{
+//     pub mod problem1;
+// }
+mod step6_result;
 
 fn main() {
     // step1_variables_and_datatypes::run();
@@ -13,5 +14,6 @@ fn main() {
     // step3_loop_execution::run();
     // step4_functions::run();
     // step5_structs_methods::run();
-    problems::problem1::run();
+    // problems::problem1::run();
+    step6_result::run();
 }
