@@ -10,7 +10,7 @@ fn parse_positive_integer(s: &str) -> Result<u32, String> {
     match s.parse::<i32>() {
         Ok(num) => {
             if num > 0 {
-                Ok(num)
+                Ok(num as u32)
             }
             else {
                 Err("The number should be positive.".to_string())
