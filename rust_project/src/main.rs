@@ -10,7 +10,11 @@
 // mod problems {
 //     pub mod problem2;
 // }
-mod step7_error_handling;
+// mod step7_error_handling;
+mod animals;
+mod step8_modules_and_crates;
+// mod animals;
+// use animals::{dog, cat};
 
 fn main() {
     // step1_variables_and_datatypes::run();
@@ -21,5 +25,8 @@ fn main() {
     // problems::problem1::run();
     // step6_result::run();
     // problems::problem2::run();
-    step7_error_handling::run();
+    // step7_error_handling::run();
+    step8_modules_and_crates::run();
+    // dog();
+    // cat();
 }
